@@ -22,5 +22,46 @@ public class SwitchExample : MonoBehaviour
         }
     */
 
-    // void 
+    void Start()
+    {
+        int number = 1;
+        
+        switch(number)
+        {
+            case 1:
+            Debug.Log("값이 1입니다.");
+            break;
+
+            case 2:
+            Debug.Log("값이 2입니다.");
+            break;
+
+            case 5:
+            Debug.Log("값이 5입니다.");
+            break;
+
+            default:
+            Debug.Log("값이 1도 2도 5도 아닙니다.");
+            break;
+
+        }
+
+        // if문으로 변환 해보기
+        if(number == 1)
+        {
+            Debug.Log("값이 1입니다");
+        }
+        else if(number == 2)
+        {
+            Debug.Log("값이 2입니다");
+        }
+        else if(number == 5)
+        {
+            Debug.Log("값이 5입니다.");
+        }
+        else
+        {
+            Debug.Log("값이 1도 2도 5도 아닙니다.");
+        }
+    } 
 }

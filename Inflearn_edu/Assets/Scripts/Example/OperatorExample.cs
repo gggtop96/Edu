@@ -18,6 +18,7 @@ public class OperatorExample : MonoBehaviour
     {
         int a = 10;
         int b = 2;
+        
         // 산술
         Debug.Log(a + b); // 12
         Debug.Log(a - b); // 8
